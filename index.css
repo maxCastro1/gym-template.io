@@ -284,7 +284,7 @@ main {
     width: 80%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 2rem;
+    gap: 3rem;
     padding: 4rem;
 }
 .why-choose-us-card{
@@ -300,6 +300,7 @@ main {
 .why-choose-us-card-sub_title{
      font-weight: 300;
      color: var(--text-200);
+     line-height: 150%;
 }
 .why-choose-us-card img {
     width: 50px;
@@ -317,6 +318,7 @@ main {
     padding-block: 4rem;
     display: flex;
     gap: 2rem;
+    align-items: center;
  
 }
 .services-section-description{
@@ -330,6 +332,7 @@ main {
 }
 .services-section .section-title {
     font-size: 2rem;
+    line-height: 110%;
 }
 .services-section .section_sub-title {
     font-size: 1.2rem;
@@ -340,6 +343,9 @@ main {
     align-items: flex-end;
     justify-content: flex-end;
     width: 50%;
+}
+.services-section-left p{
+  line-height: 150%;
 }
 .class-cont-title{ 
    font-size: 1.5rem;
@@ -541,7 +547,7 @@ main {
  .footer-upper-links,.footer-conctact{
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: 1rem;
     width: max-content;
     padding-inline-end: 1rem;
  }
@@ -574,8 +580,11 @@ main {
  }
  
  .footer-logo p{
+    line-height: 150%;
     padding-inline-start: 2rem;
     max-width: 500px;
+    font-size: 14px;
+    opacity: .67;
  }
  .footer-logo div {
     display: flex;
@@ -712,6 +721,10 @@ main {
 @media  screen and (max-width:768px) {
     .hero-section h1 {
         text-align: center;
+        line-height: 100%;
+    }
+    .section_sub-title{
+        text-align: center;
     }
     .hero-text {
         width: 100%;
@@ -758,6 +771,7 @@ border: none;
    .hero-section h1 {
       font-size: 2rem;
       padding: 0;
+    
     }
     .hero-section h2 {
         margin-top: 1rem;
