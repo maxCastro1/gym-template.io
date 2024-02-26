@@ -87,6 +87,7 @@ main {
     border-radius: 2rem;
     max-width: 1376px;
     margin-inline: auto;
+     min-height: 767px;
 }
 .hero-section h1{
     font-size: 4rem;
